@@ -1,0 +1,267 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times', 'Times New Roman', serif;
+}
+
+.logo {
+    color: ffffff;
+    padding: 27px 20px;
+    height: 25px;
+    float: left;
+    font-size: 24px;
+    background-color:#4aaaa5;
+    margin-left:155px;
+    font-family: Georgia, 'Times', 'Times New Roman', serif;
+}
+
+nav {
+    list-style: none;
+    text-align: right;
+    padding: 10px 63px 10px 0;
+}
+
+ul {
+    width: auto;
+    margin-right: 100px;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+    border-right: 1px solid #666666;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+    text-align: center;
+
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+a:focus {
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+a:active {
+    background-color:lightgrey;
+}
+
+body {
+    background-image: url(../images/concrete-texture.png);
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    min-height: 75%;
+    /* background-image: url(../images/hypnotize.png); */
+    margin-top:0;
+
+}
+
+.wrap {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    border-bottom: #cccccc solid 3px;
+  
+}
+h2 {
+    text-align: left;
+    border-bottom: solid 1px #666666;
+    padding: 10px;
+    margin-top: 0;
+}
+
+p {
+    text-align: left; 
+    
+}
+
+img {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+   }
+
+
+.footer {
+    background-color: #666666;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    border-top: #4aaaa5 solid 8px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 45px;
+    left: 0;
+    z-index: 1030;
+}
+
+.box {
+    background-color: #ffffff;
+    border: #dddddd solid 2px;
+    width:960px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align:center;
+    height: 700px;
+}
+
+
+/*Style for Contact.html */
+
+.box-contact {
+    width: 600px;
+}
+.contacts {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  
+  .form-control {
+    display: block;
+    width: 600px;
+    height: calc(4rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-top: 20px;
+}
+/*portfolio*/
+.box-portfolio {
+    width: 700px;
+}
+
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 980px) {
+ .box {
+     width: auto;
+     padding: 20px;
+     margin: 20px;
+     overflow: scroll;
+ }
+
+ .box-portfolio {
+     margin: auto;
+ }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: auto;
+        padding: 20px;
+        margin: 20px;
+        overflow: scroll;
+    }
+    .box-portfolio {
+        margin: auto;
+    }
+
+   }
+
+   @media screen and (max-width: 640px) {
+    .box {
+        width: auto;
+        padding: 20px;
+        margin: 20px;
+        overflow: scroll;
+    }
+    .box-portfolio {
+        margin: auto;
+    }
+
+    header {
+        position: static;
+    }
+   }
+   
